@@ -1,8 +1,11 @@
 module.exports = {
   pathPrefix: "/gatsby-tutorial",
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://pablobrianese.github.io/gatsby-tutorial",
     title: "My Fist Gatsby Site",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp"
+  ],
 };
